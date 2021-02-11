@@ -20,9 +20,29 @@ it, simply add the following line to your Podfile:
 pod 'viacep-ios'
 ```
 
+## Usage
+
+```swift
+let viaCep = Viacep(cep: cep.text)
+        if viaCep.hasErrorCep() {
+            debugPrint("Error format cep")
+        } else {
+            viaCep.requestCep( {(error, address) -> Void in
+                if (error != nil) {
+                    debugPrint("erro = \(error.debugDescription)")
+                } else {
+                    debugPrint(address.debugDescription)
+                    self.address = address
+                }
+            })
+            
+        }
+```
+
+
 ## Author
 
-regis@r3tecnologia.net, regis@r3tecnologia.net
+Regis Araujo Melo, regis@r3tecnologia.net
 
 ## License
 
