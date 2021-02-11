@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'viacep-ios_Example' do
+  pod 'viacep-ios', :path => '../'
+
+  target 'viacep-ios_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
