@@ -1,0 +1,820 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		197707832EF0CB8944B56C5FEF463412 /* Pods-viacep-ios_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D95A4BE007D44A7E016D5A1A9A20FCCD /* Pods-viacep-ios_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C655CC4341FD97F7903428FEDA7C3A2 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EF3D9CF4ADC96AFDAE11A04C5B160D /* Address.swift */; };
+		1FCB5D5FD7F2579C1E08D78E13B9A509 /* Pods-viacep-ios_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F9C3FF6EB1050F75D597EEA0F2AB08 /* Pods-viacep-ios_Example-dummy.m */; };
+		32CB21DBD7837F1FCE131D8F8B9FDE13 /* viacep-ios-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D54633145E1AD1EC7E3D1169348EDBBE /* viacep-ios-dummy.m */; };
+		431F88A9A6A8433108526A934CFE9A6E /* Viacep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB5A81AE6EC9354F09E19D8434B07E6 /* Viacep.swift */; };
+		61A17AC1448BCA8F587603DC0566B8BA /* viacep-ios-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8C554598A9A8632B0631FDD9C9BA243 /* viacep-ios-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		727D458D4C8D757F72D638BEA2C2B42E /* ViacepServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745A7636AC46E7423B698F8EF6E66193 /* ViacepServices.swift */; };
+		968B0BD9E04E704CD8CACE9DE5488506 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A4E43E8BBBAAC0C843D80217034A7AFA /* Pods-viacep-ios_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F2C5BFD927B0BA5130DDD39AE392AA5D /* Pods-viacep-ios_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD11ABCD49B92CB678F266B33DCB6981 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DBDB4D1C372B837FDB277F102B1CADFC /* Pods-viacep-ios_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 638665E33308CFA70CE6CCD9E9B852BA /* Pods-viacep-ios_Tests-dummy.m */; };
+		E07A0CE28F8F0B987E1F3FCD577DE8A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F0C75E8B20F5FA821E11DEF8922762DB /* URLSession+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85C469ACB4CDA48D892366C5445F2B5 /* URLSession+extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A8C62C12E81189510B53B0D66E2AE223 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7D410793A995999033A541EFA105BF4;
+			remoteInfo = "Pods-viacep-ios_Example";
+		};
+		CE39BFC008FCED581954EBAB9290659F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F443F34C4E1B713463E5735BB510BB0;
+			remoteInfo = "viacep-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0016ED9558EBD3105690B63195C4C3C3 /* viacep_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = viacep_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2593957E3EF3BF12E7AE97BD728F37CC /* Pods_viacep_ios_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_viacep_ios_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AB5A81AE6EC9354F09E19D8434B07E6 /* Viacep.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Viacep.swift; path = "viacep-ios/Classes/Viacep.swift"; sourceTree = "<group>"; };
+		3270C244ED33C58F4D10EAC71DD4E929 /* Pods-viacep-ios_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-viacep-ios_Example.modulemap"; sourceTree = "<group>"; };
+		39E32A4D277D21F89F7671EF81FC0C24 /* Pods-viacep-ios_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-viacep-ios_Tests-Info.plist"; sourceTree = "<group>"; };
+		43DB55FB2891A5A65903B4D48B06AF53 /* viacep-ios-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "viacep-ios-Info.plist"; sourceTree = "<group>"; };
+		487F247C035889DC7F29DBED0976C056 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		545E59CADA96F8224FDE41CA3006EECC /* Pods_viacep_ios_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_viacep_ios_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B7ACCC6C7F2560230E9CA2EC63A5216 /* Pods-viacep-ios_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-viacep-ios_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		61720D7CA2FAC32E056DADC74F944556 /* Pods-viacep-ios_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-viacep-ios_Tests.modulemap"; sourceTree = "<group>"; };
+		62A0B827DD2F3A273965BCE652F2BAD4 /* viacep-ios-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "viacep-ios-prefix.pch"; sourceTree = "<group>"; };
+		638665E33308CFA70CE6CCD9E9B852BA /* Pods-viacep-ios_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-viacep-ios_Tests-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		745A7636AC46E7423B698F8EF6E66193 /* ViacepServices.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ViacepServices.swift; sourceTree = "<group>"; };
+		77F9C3FF6EB1050F75D597EEA0F2AB08 /* Pods-viacep-ios_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-viacep-ios_Example-dummy.m"; sourceTree = "<group>"; };
+		7DA3D47E65C188C607E6803B9E985856 /* Pods-viacep-ios_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-viacep-ios_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7F70A46942A6F659841D18D7AE9E4F44 /* Pods-viacep-ios_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-viacep-ios_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		93AC085230291849768EA670CAD03FAA /* viacep-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "viacep-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		94EF3D9CF4ADC96AFDAE11A04C5B160D /* Address.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		9BD1C8CABD5EF52CAF01F8B1EA12639A /* Pods-viacep-ios_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-viacep-ios_Example-Info.plist"; sourceTree = "<group>"; };
+		9D34F281FAC12FC68F4B8D034261AF0A /* viacep-ios.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "viacep-ios.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E0DFA6C4EF1BB060E8DEADD36E8B98C /* Pods-viacep-ios_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-viacep-ios_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A066DBD0431F73763BA78E0839AC5654 /* Pods-viacep-ios_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-viacep-ios_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A7AF456BE1BA9F1B5AE26FEB3C4B1FD0 /* viacep-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "viacep-ios.release.xcconfig"; sourceTree = "<group>"; };
+		B594CF71F81821081F7D7358A95ED382 /* Pods-viacep-ios_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-viacep-ios_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BAA3C80973FBC2B738E63708DB7D950A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C90EB31B3C402B25FDBD9A7E671458E9 /* Pods-viacep-ios_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-viacep-ios_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D54633145E1AD1EC7E3D1169348EDBBE /* viacep-ios-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "viacep-ios-dummy.m"; sourceTree = "<group>"; };
+		D85C469ACB4CDA48D892366C5445F2B5 /* URLSession+extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "URLSession+extension.swift"; sourceTree = "<group>"; };
+		D95A4BE007D44A7E016D5A1A9A20FCCD /* Pods-viacep-ios_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-viacep-ios_Tests-umbrella.h"; sourceTree = "<group>"; };
+		DBEBB299EFCF7A34DF4C1FE92C6180E0 /* Pods-viacep-ios_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-viacep-ios_Example-frameworks.sh"; sourceTree = "<group>"; };
+		DD1389CBD1A23F8F8BB086E3E9A25B84 /* viacep-ios.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "viacep-ios.modulemap"; sourceTree = "<group>"; };
+		DD7B0ABEB3B071AE0062A1D5F991B1CD /* Pods-viacep-ios_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-viacep-ios_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F2C5BFD927B0BA5130DDD39AE392AA5D /* Pods-viacep-ios_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-viacep-ios_Example-umbrella.h"; sourceTree = "<group>"; };
+		F8C554598A9A8632B0631FDD9C9BA243 /* viacep-ios-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "viacep-ios-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		116E979ADC71FB479E2013EF7E717328 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E07A0CE28F8F0B987E1F3FCD577DE8A9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68812E2865F78B3B1660D96FCFC127C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				968B0BD9E04E704CD8CACE9DE5488506 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85D863B0624D5023FB4389E6E2913C4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD11ABCD49B92CB678F266B33DCB6981 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DFA3857D512BBBD00CD218C94764600 /* Pods-viacep-ios_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3270C244ED33C58F4D10EAC71DD4E929 /* Pods-viacep-ios_Example.modulemap */,
+				7DA3D47E65C188C607E6803B9E985856 /* Pods-viacep-ios_Example-acknowledgements.markdown */,
+				DD7B0ABEB3B071AE0062A1D5F991B1CD /* Pods-viacep-ios_Example-acknowledgements.plist */,
+				77F9C3FF6EB1050F75D597EEA0F2AB08 /* Pods-viacep-ios_Example-dummy.m */,
+				DBEBB299EFCF7A34DF4C1FE92C6180E0 /* Pods-viacep-ios_Example-frameworks.sh */,
+				9BD1C8CABD5EF52CAF01F8B1EA12639A /* Pods-viacep-ios_Example-Info.plist */,
+				F2C5BFD927B0BA5130DDD39AE392AA5D /* Pods-viacep-ios_Example-umbrella.h */,
+				A066DBD0431F73763BA78E0839AC5654 /* Pods-viacep-ios_Example.debug.xcconfig */,
+				9E0DFA6C4EF1BB060E8DEADD36E8B98C /* Pods-viacep-ios_Example.release.xcconfig */,
+			);
+			name = "Pods-viacep-ios_Example";
+			path = "Target Support Files/Pods-viacep-ios_Example";
+			sourceTree = "<group>";
+		};
+		4B741B59F25EE48A5DB86867D5CF798B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				745A7636AC46E7423B698F8EF6E66193 /* ViacepServices.swift */,
+			);
+			name = Services;
+			path = "viacep-ios/Classes/Services";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5882CC0DC2945DB6779657703D9BDE00 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				487F247C035889DC7F29DBED0976C056 /* LICENSE */,
+				BAA3C80973FBC2B738E63708DB7D950A /* README.md */,
+				9D34F281FAC12FC68F4B8D034261AF0A /* viacep-ios.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7FF43AAAF905F6C0B7285F6934B6B6A8 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				94EF3D9CF4ADC96AFDAE11A04C5B160D /* Address.swift */,
+			);
+			name = model;
+			path = "viacep-ios/Classes/model";
+			sourceTree = "<group>";
+		};
+		944CB47499435D6DAE934FD19B51D344 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD1389CBD1A23F8F8BB086E3E9A25B84 /* viacep-ios.modulemap */,
+				D54633145E1AD1EC7E3D1169348EDBBE /* viacep-ios-dummy.m */,
+				43DB55FB2891A5A65903B4D48B06AF53 /* viacep-ios-Info.plist */,
+				62A0B827DD2F3A273965BCE652F2BAD4 /* viacep-ios-prefix.pch */,
+				F8C554598A9A8632B0631FDD9C9BA243 /* viacep-ios-umbrella.h */,
+				93AC085230291849768EA670CAD03FAA /* viacep-ios.debug.xcconfig */,
+				A7AF456BE1BA9F1B5AE26FEB3C4B1FD0 /* viacep-ios.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/viacep-ios";
+			sourceTree = "<group>";
+		};
+		AF209FB13F61849067C55D80BCF58054 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2593957E3EF3BF12E7AE97BD728F37CC /* Pods_viacep_ios_Example.framework */,
+				545E59CADA96F8224FDE41CA3006EECC /* Pods_viacep_ios_Tests.framework */,
+				0016ED9558EBD3105690B63195C4C3C3 /* viacep_ios.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3D4760891CC3815DB15931A9A8501AB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC38C00B63A4BBDDDC1983B59990A283 /* viacep-ios */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C0D404EF1B3FF96177C20B7CE2B02E63 /* Pods-viacep-ios_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				61720D7CA2FAC32E056DADC74F944556 /* Pods-viacep-ios_Tests.modulemap */,
+				B594CF71F81821081F7D7358A95ED382 /* Pods-viacep-ios_Tests-acknowledgements.markdown */,
+				5B7ACCC6C7F2560230E9CA2EC63A5216 /* Pods-viacep-ios_Tests-acknowledgements.plist */,
+				638665E33308CFA70CE6CCD9E9B852BA /* Pods-viacep-ios_Tests-dummy.m */,
+				39E32A4D277D21F89F7671EF81FC0C24 /* Pods-viacep-ios_Tests-Info.plist */,
+				D95A4BE007D44A7E016D5A1A9A20FCCD /* Pods-viacep-ios_Tests-umbrella.h */,
+				C90EB31B3C402B25FDBD9A7E671458E9 /* Pods-viacep-ios_Tests.debug.xcconfig */,
+				7F70A46942A6F659841D18D7AE9E4F44 /* Pods-viacep-ios_Tests.release.xcconfig */,
+			);
+			name = "Pods-viacep-ios_Tests";
+			path = "Target Support Files/Pods-viacep-ios_Tests";
+			sourceTree = "<group>";
+		};
+		C8F881F3E9FAA5ED36C62423D5FE267D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D85C469ACB4CDA48D892366C5445F2B5 /* URLSession+extension.swift */,
+			);
+			name = Extensions;
+			path = "viacep-ios/Classes/Extensions";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				B3D4760891CC3815DB15931A9A8501AB /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				AF209FB13F61849067C55D80BCF58054 /* Products */,
+				D1B3AF5C61EA24EE9522051EF2185317 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D1B3AF5C61EA24EE9522051EF2185317 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DFA3857D512BBBD00CD218C94764600 /* Pods-viacep-ios_Example */,
+				C0D404EF1B3FF96177C20B7CE2B02E63 /* Pods-viacep-ios_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC38C00B63A4BBDDDC1983B59990A283 /* viacep-ios */ = {
+			isa = PBXGroup;
+			children = (
+				2AB5A81AE6EC9354F09E19D8434B07E6 /* Viacep.swift */,
+				C8F881F3E9FAA5ED36C62423D5FE267D /* Extensions */,
+				7FF43AAAF905F6C0B7285F6934B6B6A8 /* model */,
+				5882CC0DC2945DB6779657703D9BDE00 /* Pod */,
+				4B741B59F25EE48A5DB86867D5CF798B /* Services */,
+				944CB47499435D6DAE934FD19B51D344 /* Support Files */,
+			);
+			name = "viacep-ios";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6C5254B4C8CDDE2F65F0A7312C3269E4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4E43E8BBBAAC0C843D80217034A7AFA /* Pods-viacep-ios_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		921B549A38B4CC980F7D396EFBD22B02 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				197707832EF0CB8944B56C5FEF463412 /* Pods-viacep-ios_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDA84D775FB590C0C366D5DA863A6C82 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61A17AC1448BCA8F587603DC0566B8BA /* viacep-ios-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6F443F34C4E1B713463E5735BB510BB0 /* viacep-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 614CE11EC8F977BCE021170409114886 /* Build configuration list for PBXNativeTarget "viacep-ios" */;
+			buildPhases = (
+				BDA84D775FB590C0C366D5DA863A6C82 /* Headers */,
+				AD7500EFE7C7D7619A7DFDB9CC527CB2 /* Sources */,
+				85D863B0624D5023FB4389E6E2913C4A /* Frameworks */,
+				7CD200027D803AEA018D14A9D3C51292 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "viacep-ios";
+			productName = "viacep-ios";
+			productReference = 0016ED9558EBD3105690B63195C4C3C3 /* viacep_ios.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C660FE521984A42AA58EF76ADAE17B9F /* Pods-viacep-ios_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59302929FED3DD97C6F751EE86238B15 /* Build configuration list for PBXNativeTarget "Pods-viacep-ios_Tests" */;
+			buildPhases = (
+				921B549A38B4CC980F7D396EFBD22B02 /* Headers */,
+				F91DDB20C21A631D5AE071111DF0CCAD /* Sources */,
+				116E979ADC71FB479E2013EF7E717328 /* Frameworks */,
+				98E50321322D200C52D288647900185C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3307EA19EE423CAD940E9B8E11CB1237 /* PBXTargetDependency */,
+			);
+			name = "Pods-viacep-ios_Tests";
+			productName = "Pods-viacep-ios_Tests";
+			productReference = 545E59CADA96F8224FDE41CA3006EECC /* Pods_viacep_ios_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D7D410793A995999033A541EFA105BF4 /* Pods-viacep-ios_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 799EA1ECE2223BB2CDA8C95C976AD6F8 /* Build configuration list for PBXNativeTarget "Pods-viacep-ios_Example" */;
+			buildPhases = (
+				6C5254B4C8CDDE2F65F0A7312C3269E4 /* Headers */,
+				BFB906807AC3D21A00A4CFEEAD934943 /* Sources */,
+				68812E2865F78B3B1660D96FCFC127C8 /* Frameworks */,
+				B21071BC051D23A1D50C9FEC74EF434A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83D7AC6D17B93DDFC6F9C0DC388F5805 /* PBXTargetDependency */,
+			);
+			name = "Pods-viacep-ios_Example";
+			productName = "Pods-viacep-ios_Example";
+			productReference = 2593957E3EF3BF12E7AE97BD728F37CC /* Pods_viacep_ios_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = AF209FB13F61849067C55D80BCF58054 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7D410793A995999033A541EFA105BF4 /* Pods-viacep-ios_Example */,
+				C660FE521984A42AA58EF76ADAE17B9F /* Pods-viacep-ios_Tests */,
+				6F443F34C4E1B713463E5735BB510BB0 /* viacep-ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CD200027D803AEA018D14A9D3C51292 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98E50321322D200C52D288647900185C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B21071BC051D23A1D50C9FEC74EF434A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD7500EFE7C7D7619A7DFDB9CC527CB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C655CC4341FD97F7903428FEDA7C3A2 /* Address.swift in Sources */,
+				F0C75E8B20F5FA821E11DEF8922762DB /* URLSession+extension.swift in Sources */,
+				32CB21DBD7837F1FCE131D8F8B9FDE13 /* viacep-ios-dummy.m in Sources */,
+				431F88A9A6A8433108526A934CFE9A6E /* Viacep.swift in Sources */,
+				727D458D4C8D757F72D638BEA2C2B42E /* ViacepServices.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB906807AC3D21A00A4CFEEAD934943 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FCB5D5FD7F2579C1E08D78E13B9A509 /* Pods-viacep-ios_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F91DDB20C21A631D5AE071111DF0CCAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBDB4D1C372B837FDB277F102B1CADFC /* Pods-viacep-ios_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3307EA19EE423CAD940E9B8E11CB1237 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-viacep-ios_Example";
+			target = D7D410793A995999033A541EFA105BF4 /* Pods-viacep-ios_Example */;
+			targetProxy = A8C62C12E81189510B53B0D66E2AE223 /* PBXContainerItemProxy */;
+		};
+		83D7AC6D17B93DDFC6F9C0DC388F5805 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "viacep-ios";
+			target = 6F443F34C4E1B713463E5735BB510BB0 /* viacep-ios */;
+			targetProxy = CE39BFC008FCED581954EBAB9290659F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		203466675AE5B388E6C173DC21AFC4A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E0DFA6C4EF1BB060E8DEADD36E8B98C /* Pods-viacep-ios_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-viacep-ios_Example/Pods-viacep-ios_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-viacep-ios_Example/Pods-viacep-ios_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		277583048237D67E6F9123F00FCF98A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F70A46942A6F659841D18D7AE9E4F44 /* Pods-viacep-ios_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-viacep-ios_Tests/Pods-viacep-ios_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-viacep-ios_Tests/Pods-viacep-ios_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		40E42D00413D71B41279FF9D35EEF903 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7AF456BE1BA9F1B5AE26FEB3C4B1FD0 /* viacep-ios.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/viacep-ios/viacep-ios-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/viacep-ios/viacep-ios-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/viacep-ios/viacep-ios.modulemap";
+				PRODUCT_MODULE_NAME = viacep_ios;
+				PRODUCT_NAME = viacep_ios;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		76B09A4E4BF28939A1BE2859DA893F06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A066DBD0431F73763BA78E0839AC5654 /* Pods-viacep-ios_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-viacep-ios_Example/Pods-viacep-ios_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-viacep-ios_Example/Pods-viacep-ios_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BD080CE54CFAB403656C80AA5C7D9AD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93AC085230291849768EA670CAD03FAA /* viacep-ios.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/viacep-ios/viacep-ios-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/viacep-ios/viacep-ios-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/viacep-ios/viacep-ios.modulemap";
+				PRODUCT_MODULE_NAME = viacep_ios;
+				PRODUCT_NAME = viacep_ios;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FD331F6C86AD6B9385FC0062C92D5B64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C90EB31B3C402B25FDBD9A7E671458E9 /* Pods-viacep-ios_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-viacep-ios_Tests/Pods-viacep-ios_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-viacep-ios_Tests/Pods-viacep-ios_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */,
+				903A0004D3E6651EFD5D2E16214D101B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59302929FED3DD97C6F751EE86238B15 /* Build configuration list for PBXNativeTarget "Pods-viacep-ios_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD331F6C86AD6B9385FC0062C92D5B64 /* Debug */,
+				277583048237D67E6F9123F00FCF98A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		614CE11EC8F977BCE021170409114886 /* Build configuration list for PBXNativeTarget "viacep-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD080CE54CFAB403656C80AA5C7D9AD3 /* Debug */,
+				40E42D00413D71B41279FF9D35EEF903 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		799EA1ECE2223BB2CDA8C95C976AD6F8 /* Build configuration list for PBXNativeTarget "Pods-viacep-ios_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76B09A4E4BF28939A1BE2859DA893F06 /* Debug */,
+				203466675AE5B388E6C173DC21AFC4A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="viacep-ios_Example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="viacep_ios_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -20,11 +19,69 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kiK-pg-722">
+                                <rect key="frame" x="16" y="172" width="343" height="40"/>
+                                <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="v7R-kG-N5P"/>
+                                </constraints>
+                                <state key="normal" title="Buscar">
+                                    <color key="titleColor" systemColor="labelColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="findCep:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="chn-ID-QZ6"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="digite o cep" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NeO-FU-XGq">
+                                <rect key="frame" x="16" y="130" width="343" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="Lw2-CH-fTa"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ZaI-3y-Jww">
+                                <rect key="frame" x="16" y="220" width="343" height="439"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ZaI-3y-Jww" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="85n-Un-2gT"/>
+                            <constraint firstItem="NeO-FU-XGq" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="130" id="FBT-S3-EsY"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="ZaI-3y-Jww" secondAttribute="bottom" constant="8" id="KZa-Mg-cjM"/>
+                            <constraint firstItem="ZaI-3y-Jww" firstAttribute="top" secondItem="kiK-pg-722" secondAttribute="bottom" constant="8" id="NqE-fa-QKA"/>
+                            <constraint firstItem="NeO-FU-XGq" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="Vil-ge-sFl"/>
+                            <constraint firstItem="kiK-pg-722" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="bUj-tS-ySY"/>
+                            <constraint firstItem="kiK-pg-722" firstAttribute="top" secondItem="NeO-FU-XGq" secondAttribute="bottom" constant="6" id="dhb-Qe-TGV"/>
+                            <constraint firstItem="NeO-FU-XGq" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="ebD-iC-PAf"/>
+                            <constraint firstItem="kiK-pg-722" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="keq-7V-8y5"/>
+                            <constraint firstItem="ZaI-3y-Jww" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="whQ-g9-iir"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="cep" destination="NeO-FU-XGq" id="wxT-md-zUP"/>
+                        <outlet property="textresult" destination="ZaI-3y-Jww" id="ggc-AF-rBi"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="112.8" y="101.19940029985008"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>

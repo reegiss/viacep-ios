@@ -1,5 +1,5 @@
 import XCTest
-import viacep-ios
+
 
 class Tests: XCTestCase {
     

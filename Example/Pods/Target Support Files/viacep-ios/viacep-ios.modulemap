@@ -1,0 +1,6 @@
+framework module viacep_ios {
+  umbrella header "viacep-ios-umbrella.h"
+
+  export *
+  module * { export * }
+}

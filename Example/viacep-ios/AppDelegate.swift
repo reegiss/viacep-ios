@@ -2,8 +2,9 @@
 //  AppDelegate.swift
 //  viacep-ios
 //
-//  Created by regis@r3tecnologia.net on 02/11/2021.
-//  Copyright (c) 2021 regis@r3tecnologia.net. All rights reserved.
+//  Created by Regis Araujo Melo on 02.02.2021.
+//  Email regis@r3tecnologia.net
+//  Copyright © 2021 R3Tecnologia.net. All rights reserved.
 //
 
 import UIKit

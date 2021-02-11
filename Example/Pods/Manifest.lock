@@ -1,0 +1,16 @@
+PODS:
+  - viacep-ios (0.1.0)
+
+DEPENDENCIES:
+  - viacep-ios (from `../`)
+
+EXTERNAL SOURCES:
+  viacep-ios:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  viacep-ios: d27c191f2be55dbc3f00a092e2eed6e59aa6f540
+
+PODFILE CHECKSUM: 918ece9a8c5821add8dbdf24f36349f045e65db8
+
+COCOAPODS: 1.10.1
