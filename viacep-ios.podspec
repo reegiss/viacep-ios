@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/reegiss/viacep-ios'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'regis@r3tecnologia.net' => 'regis@r3tecnologia.net' }
+  s.author           = { 'Regis Araujo Melo' => 'regis@r3tecnologia.net' }
   s.source           = { :git => 'https://github.com/reegiss/viacep-ios.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/reegiss'
   s.swift_versions   = '4.0'
