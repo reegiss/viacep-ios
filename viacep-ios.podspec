@@ -27,7 +27,7 @@ TODO: Add long description of the pod here.
   s.author           = { 'regis@r3tecnologia.net' => 'regis@r3tecnologia.net' }
   s.source           = { :git => 'https://github.com/reegiss/viacep-ios.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/reegiss'
-
+  s.swift_versions   = '4.0'
   s.ios.deployment_target = '11.0'
 
   s.source_files = 'viacep-ios/Classes/**/*'
