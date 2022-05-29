@@ -35,3 +35,11 @@ Carthage/Build
 # `pod install` in .travis.yml
 #
 # Pods/
+
+.build/
+
+.swiftpm/
+
+Example/Pods/
+
+*.lock
