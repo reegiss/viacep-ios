@@ -39,3 +39,7 @@ Carthage/Build
 .build/
 
 .swiftpm/
+
+Example/Pods/
+
+*.lock
