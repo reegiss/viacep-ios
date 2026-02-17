@@ -69,30 +69,28 @@ actor ViacepService {
         }
         
         // Perform request
+        let (data, response): (Data, URLResponse)
         do {
-            let (data, response) = try await urlSession.data(from: url)
-            
-            // Validate response
-            guard let httpResponse = response as? HTTPURLResponse else {
-                throw ViacepError.invalidResponse
-            }
-            
-            guard (200...299).contains(httpResponse.statusCode) else {
-                throw ViacepError.invalidResponse
-            }
-            
-            // Decode response
-            do {
-                let address = try jsonDecoder.decode(Address.self, from: data)
-                return address
-            } catch {
-                throw ViacepError.decodingError(error)
-            }
-            
-        } catch let error as ViacepError {
-            throw error
+            (data, response) = try await urlSession.data(from: url)
         } catch {
             throw ViacepError.networkError(error)
+        }
+        
+        // Validate response
+        guard let httpResponse = response as? HTTPURLResponse else {
+            throw ViacepError.invalidResponse
+        }
+        
+        guard (200...299).contains(httpResponse.statusCode) else {
+            throw ViacepError.invalidResponse
+        }
+        
+        // Decode response
+        do {
+            let address = try jsonDecoder.decode(Address.self, from: data)
+            return address
+        } catch {
+            throw ViacepError.decodingError(error)
         }
     }
 }

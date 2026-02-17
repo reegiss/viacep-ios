@@ -91,9 +91,7 @@ extension ViacepClient {
     /// Legacy singleton instance for backward compatibility
     /// - Note: Creating new instances with dependency injection is preferred
     @available(*, deprecated, message: "Create instances directly instead of using singleton")
-    public static var shared: ViacepClient {
-        ViacepClient()
-    }
+    public static let shared = ViacepClient()
     
     /// Legacy method for backward compatibility
     /// - Note: Use `isValidCEP(_:)` instead
