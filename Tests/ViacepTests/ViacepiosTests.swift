@@ -2,16 +2,35 @@ import XCTest
 @testable import Viacep
 
 final class ViacepiosTests: XCTestCase {
-    func testExample() throws {
-
-        let viacep = Viacep(cep: "01001000")
-        viacep.requestCep { (error, address) in
+    
+    func testModernAsyncAPI() async throws {
+        // Given
+        let client = ViacepClient()
+        let cep = "01001000"
+        
+        // When
+        let address = try await client.fetchAddress(cep: cep)
+        
+        // Then
+        XCTAssertNotNil(address)
+        XCTAssertEqual(address.cep, "01001-000")
+        XCTAssertEqual(address.uf, "SP")
+    }
+    
+    func testLegacyCompatibility() {
+        // Given
+        let client = ViacepClient()
+        let cep = "01001000"
+        let expectation = expectation(description: "Legacy API")
+        
+        // When - Using legacy method signature
+        client.requestCep(cep: cep) { error, address in
+            // Then
             XCTAssertNil(error)
             XCTAssertNotNil(address)
-            
+            expectation.fulfill()
         }
-
         
-        // XCTAssertEqual(Viacep(cep: "74305-440"), "Hello, World!")
+        wait(for: [expectation], timeout: 10.0)
     }
 }
